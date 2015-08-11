@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!-- This will display Bobs response -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="To be filled by bob later"
+        android:id="@+id/bobMessage"/>
+
+    <EditText android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="300dp"
+        android:id="@+id/adamResponse"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send to Bob"
+        android:id="@+id/sendToBob"/>
+
+</LinearLayout>
