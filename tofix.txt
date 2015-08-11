@@ -1,0 +1,25 @@
+08-11 09:31:27.167  18370-18370/com.example.erics.activitychat W/dalvikvm﹕ threadid=1: thread exiting with uncaught exception (group=0x416bcda0)
+08-11 09:31:27.197  18370-18370/com.example.erics.activitychat E/AndroidRuntime﹕ FATAL EXCEPTION: main
+    Process: com.example.erics.activitychat, PID: 18370
+    android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.erics.activitychat/com.example.erics.activitychat.Adam}; have you declared this activity in your AndroidManifest.xml?
+            at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1648)
+            at android.app.Instrumentation.execStartActivity(Instrumentation.java:1442)
+            at android.app.Activity.startActivityForResult(Activity.java:3511)
+            at android.app.Activity.startActivityForResult(Activity.java:3472)
+            at android.app.Activity.startActivity(Activity.java:3714)
+            at android.app.Activity.startActivity(Activity.java:3682)
+            at com.example.erics.activitychat.Bob.sendAdamTheMessage(Bob.java:45)
+            at com.example.erics.activitychat.Bob.access$000(Bob.java:12)
+            at com.example.erics.activitychat.Bob$1.onClick(Bob.java:34)
+            at android.view.View.performClick(View.java:4626)
+            at android.view.View$PerformClick.run(View.java:19227)
+            at android.os.Handler.handleCallback(Handler.java:733)
+            at android.os.Handler.dispatchMessage(Handler.java:95)
+            at android.os.Looper.loop(Looper.java:157)
+            at android.app.ActivityThread.main(ActivityThread.java:5377)
+            at java.lang.reflect.Method.invokeNative(Native Method)
+            at java.lang.reflect.Method.invoke(Method.java:515)
+            at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+            at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+            at dalvik.system.NativeStart.main(Native Method)
+08-11 09:31:51.307  18370-18370/com.example.erics.activitychat I/Process﹕ Sending signal. PID: 18370 SIG: 9
